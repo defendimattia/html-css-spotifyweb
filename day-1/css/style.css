@@ -116,8 +116,19 @@ li {
     flex-direction: column;
 }
 
-.install-container {
+.lower-container {
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.lower-menu hr {
+    border: 1px solid #9a9a9a;
+    width: 95%;
+    margin: 0 auto 10px;
+}
+
+.lower-container .user {
+    color: #ffffff
 }
 
 /*** footer ***/
@@ -173,7 +184,7 @@ li {
         flex-shrink: 0;
     }
     
-    .install-container {
+    .lower-container {
         width: 40px;
         display: flex;
         flex-direction: row;
