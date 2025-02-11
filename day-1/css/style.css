@@ -54,9 +54,11 @@ nav {
     gap: 10px;
 }
 
-span {
+span,
+li {
     font-weight: 600;
 }
+
 .logo-small {
     margin-bottom: 30px;
 }
@@ -72,7 +74,6 @@ span {
     display: flex;
     align-items: center;
 }
-
 
 .right-box {
     width: calc(100% - 55px);
@@ -102,6 +103,7 @@ span {
     gap: 10px;
 }
 
+
 /*** footer ***/
 #f-container {
     height: 90px;
@@ -121,6 +123,10 @@ span {
     
     #main-container .left-box {
         width: 450px;
+    }
+
+    .right-box {
+        width: calc(100% - 450px);
     }
     
     .logo-small {
