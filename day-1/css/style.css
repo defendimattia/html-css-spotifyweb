@@ -30,6 +30,14 @@ main {
 
 .left-box {
     width: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 12px;
+}
+
+#logo-big {
+    display: none;
 }
 
 .right-box {
@@ -55,5 +63,13 @@ main {
 
     #main-container .left-box {
         width: 450px;
+    }
+
+    #logo-small {
+        display: none;
+    }
+
+    #logo-big {
+        display: block;
     }
 }
