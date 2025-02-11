@@ -1,5 +1,4 @@
 /*** reset ***/
-
 * {
     border: 0;
     margin: 0;
@@ -7,23 +6,54 @@
 }
 
 /*** common ***/
-
 body {
     /* font montserrat */
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
 
-    height: 100vw;
+    height: 100vh;
 }
 
+main {
+    height: calc(100% - 90px);
+}
+.border {
+    border: 1px dashed red;
+}
+
+/*** main ***/
+#main-container {
+    height: 100%;
+    display: flex;
+}
+
+.left-box {
+    width: 55px;
+}
+
+.right-box {
+    width: calc(100% - 55px);
+}
+
+/*** footer ***/
+#f-container {
+    height: 90px;
+    background-color: #282828;
+}
 
 /*** media queries  ***/
-
 @media (min-width: 768px) {
 
 }
 
 @media (min-width: 992px) {
      
+    #f-container {
+        height: 170px;
+    }
+
+    #main-container .left-box {
+        width: 450px;
+    }
 }
