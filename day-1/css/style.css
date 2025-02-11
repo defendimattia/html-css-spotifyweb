@@ -105,6 +105,7 @@ nav span {
     nav {
         width: 50px;
         gap: 25px;
+        margin-bottom: 70px;
     }
 
     nav img {
