@@ -116,7 +116,11 @@ li {
 }
 
 @media (min-width: 992px) {
-    
+
+    main {
+        height: calc(100% - 170px);
+    }
+
     #f-container {
         height: 170px;
     }
