@@ -28,6 +28,11 @@ main {
     display: none;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 /*** main ***/
 #main-container {
     height: 100%;
@@ -81,7 +86,7 @@ span {
 .create-playlist {
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #add-button {
@@ -89,6 +94,12 @@ span {
     font-size: 25px;
     color: #000000;
     background-color: #5c5c5c;
+}
+
+.playlist ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /*** footer ***/
