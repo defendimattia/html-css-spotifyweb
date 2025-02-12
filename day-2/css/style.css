@@ -42,6 +42,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+    color: #ffffff;
+}
+
 /*** main ***/
 #main-container {
     height: 100%;
@@ -148,6 +152,7 @@ li {
 .right-box {
     width: calc(100% - 50px);
     background-color: #141922;
+    overflow: scroll;
 }
 
 .btn-cont {
@@ -190,7 +195,12 @@ li {
     flex-wrap: wrap;
 }
 
-
+h3,
+h3 + span {
+    text-align: center;
+    font-size: small;
+    display: block;
+}
 
 /*** footer ***/
 #f-container {
@@ -240,6 +250,7 @@ li {
     nav img,
     .lower-menu img {
         margin-right: 10px;
+        width: revert;
     }
 
     .hide {
@@ -258,10 +269,6 @@ li {
         align-items: revert;
     }    
 
-    img {
-        width: revert;
-    }
-
     .profile-icon {
         padding: 5px 7px;
     }
@@ -279,6 +286,8 @@ li {
         width: calc((100% / 4) - 10px);
     }
 }
+
+
 
 
 /* large */
