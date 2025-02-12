@@ -47,6 +47,11 @@ h3 {
     color: #ffffff;
 }
 
+h4 {
+    margin-bottom: 20px;
+}
+
+
 /*** main ***/
 #main-container {
     height: 100%;
@@ -214,12 +219,12 @@ h3 + span {
     display: block;
 }
     
-h2 + span {
-    margin-bottom: 20px;
-}
-
 .round img {
     border-radius: 50%;
+}
+
+.right-box img {
+    margin-bottom: 5px;
 }
 
 
