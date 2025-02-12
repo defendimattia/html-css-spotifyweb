@@ -85,9 +85,7 @@ li {
     align-items: center;
 }
 
-.right-box {
-    width: calc(100% - 50px);
-}
+
 
 .playlist strong {
     text-transform: uppercase;
@@ -137,6 +135,29 @@ li {
     padding: 5px 5px;
     background-color: #696969;
     border-radius: 50%;
+}
+
+/* right container */
+
+.right-box {
+    width: calc(100% - 50px);
+    background-color: #141922;
+}
+
+.btn-cont {
+    background-color: #000000;
+    opacity: 0.5;
+    height: 100px;
+    color: #ffffff;
+}
+
+#upgrade-btn {
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 50px;
+    
 }
 
 
