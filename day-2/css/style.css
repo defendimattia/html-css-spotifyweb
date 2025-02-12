@@ -145,10 +145,10 @@ li {
 }
 
 .btn-cont {
-    background-color: #000000;
-    opacity: 0.5;
-    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
     color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #upgrade-btn {
@@ -157,7 +157,7 @@ li {
     display: inline-block;
     padding: 10px 40px;
     border-radius: 50px;
-    
+    margin: 30px;
 }
 
 
