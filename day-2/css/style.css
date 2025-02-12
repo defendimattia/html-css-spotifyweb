@@ -184,15 +184,16 @@ li {
     margin: 15px;
 }
 
-.played-container {
+.container {
     padding: 10px;
 
 }
 
-.played-box-cont {
+.box-cont {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 h3,
@@ -200,6 +201,10 @@ h3 + span {
     text-align: center;
     font-size: small;
     display: block;
+}
+    
+h2 + span {
+    margin-bottom: 20px;
 }
 
 /*** footer ***/
