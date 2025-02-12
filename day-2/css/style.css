@@ -207,6 +207,10 @@ h2 + span {
     margin-bottom: 20px;
 }
 
+.round img {
+    border-radius: 50%;
+}
+
 /*** footer ***/
 #f-container {
     height: 90px;
