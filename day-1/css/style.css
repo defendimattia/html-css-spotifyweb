@@ -33,6 +33,10 @@ ul {
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
+
 /*** main ***/
 #main-container {
     height: 100%;
@@ -112,12 +116,10 @@ li {
 
 .lower-menu {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
 .lower-container {
-    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -129,6 +131,12 @@ li {
 
 .lower-container .user {
     color: #ffffff
+}
+
+.profile-icon {
+    padding: 5px 5px;
+    background-color: #696969;
+    border-radius: 50%;
 }
 
 /*** footer ***/
@@ -170,7 +178,7 @@ li {
     
     nav {
         width: 50px;
-        gap: 25px;
+        gap: 15px;
         margin-bottom: 70px;
     }
     
@@ -193,7 +201,10 @@ li {
 
     .lower-menu {
         align-items: revert;
+    }    
+
+    img {
+        width: revert;
     }
 
-    
 }
