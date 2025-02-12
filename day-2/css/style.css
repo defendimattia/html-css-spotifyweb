@@ -160,6 +160,9 @@ li {
     color: #ffffff;
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    right: 0;
 }
 
 #upgrade-btn {
