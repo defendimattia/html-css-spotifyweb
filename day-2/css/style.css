@@ -158,8 +158,20 @@ li {
     padding: 10px 40px;
     border-radius: 50px;
     margin: 30px;
+    font-size: small;
 }
 
+.right-box .menu-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.right-box .menu-list li{
+    margin: 15px;
+}
 
 
 /*** footer ***/
