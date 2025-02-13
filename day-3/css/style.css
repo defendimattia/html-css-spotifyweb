@@ -11,7 +11,7 @@ body {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    
+
     height: 100vh;
 }
 
@@ -44,7 +44,9 @@ h2 {
 }
 
 h3,
-h5 {
+h5,
+.f-m-box,
+.f-r-box {
     color: #ffffff;
 }
 
@@ -197,7 +199,7 @@ li {
     text-transform: uppercase;
 }
 
-.right-box .menu-list li{
+.right-box .menu-list li {
     margin: 15px;
 }
 
@@ -214,12 +216,12 @@ li {
 }
 
 h3,
-h3 + span {
+h3+span {
     text-align: center;
     font-size: small;
     display: block;
 }
-    
+
 .round img {
     border-radius: 50%;
 }
@@ -246,35 +248,70 @@ h3 + span {
     color: #5c5c5c;
 }
 
+.f-l-box,
+.f-r-box {
+    margin: 0 10px;
+}
+
 .f-m-box {
-    flex-grow: 1;
+    width: 100%;
+    /* debugger */
 }
 
 .f-m-box-upper,
 .f-m-box-lower {
-   height: 50%;
+    height: 50%;
 }
 
 .l-left {
     width: 50px;
     height: 50px;
-    margin: 0 10px;
 }
 
+
 .l-middle {
-    margin-right: 40px;
+    margin: 0 40px 0 10px;
 }
 
 .l-right {
     display: flex;
-    gap: 10px;
+    gap: 15px;
+}
+
+.f-r-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.bar-container {
+    width: 120px;
+    position: relative;
+}
+
+.empty-bar {
+    background-color: #5a5a5a;
+    padding: 2px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.w-bar {
+    background-color: #ffffff;
+    padding: 2px;
+    width: 30px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /*** media queries  ***/
 
 /* extra small */
 @media (max-width: 576px) {
-    
+
     h2 {
         font-size: 20px;
     }
@@ -290,7 +327,7 @@ h3 + span {
     #main-container .left-box {
         width: 230px;
     }
-    
+
     .right-box {
         width: calc(100% - 230px);
     }
@@ -298,7 +335,7 @@ h3 + span {
     .logo-small {
         display: none;
     }
-    
+
     .logo-big {
         display: block;
     }
@@ -308,7 +345,7 @@ h3 + span {
         gap: 15px;
         margin-bottom: 70px;
     }
-    
+
     nav img,
     .lower-menu img {
         margin-right: 10px;
@@ -329,7 +366,7 @@ h3 + span {
 
     .lower-menu {
         align-items: revert;
-    }    
+    }
 
     .profile-icon {
         padding: 1px 3px;
@@ -359,6 +396,3 @@ h3 + span {
         width: calc((100% - 50px) / 6);
     }
 }
-
-
-
