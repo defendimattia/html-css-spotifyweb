@@ -261,6 +261,10 @@ h3+span {
 .f-m-box-upper,
 .f-m-box-lower {
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .l-left {
@@ -301,11 +305,16 @@ h3+span {
 .w-bar {
     background-color: #ffffff;
     padding: 2px;
-    width: 30px;
+    width: 30%;
     border-radius: 3px;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.adapt-bar-container {
+    width: 70%;
+    position: relative;
 }
 
 /*** media queries  ***/
