@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web</title>
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- main container -->
+        <div id="main-container">
+            <!-- left container -->
+            <div class="left-box">
+                <!-- logo small-->
+                <img src="../img/logo-small.svg" alt="logo-small" class="logo-small">
+                <!-- logo big -->
+                <img src="../img/logo.svg" alt="logo-big" class="logo-big hide">
+                <!-- menu -->
+                <div class="menu">
+                    <!-- nav -->
+                    <nav>
+                        <!-- home -->
+                        <div class="home">
+                            <img src="../img/home.svg" alt="home">
+                            <span class="hide">Home</span>
+                        </div>
+                        <!-- search -->
+                        <div class="search">
+                            <img src="../img/search.svg" alt="cerca">
+                            <span class="hide">Cerca</span>
+                        </div>
+                        <!-- library -->
+                        <div class="library">
+                            <img src="../img/libreria.svg" alt="libreria">
+                            <span class="hide">La tua libreria</span>
+                        </div>
+                    </nav>
+                    <!-- playlist list -->
+                    <div class="playlist hide">
+                        <strong>playlist</strong>
+                        <!-- add button -->
+                        <div class="create-playlist">
+                            <div id="add-button">+</div>
+                            <span>Crea playlist</span>
+                        </div>
+                        <!-- list  -->
+                        <ul>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
+                    <!-- install/user section-->
+                    <div class="lower-menu">
+                        <!-- install section -->
+                        <div class="lower-container">                      
+                            <!-- icon -->
+                            <img src="../img/download.svg" alt="download-button">
+                            <!-- txt -->
+                            <span class="hide">Installa App</span>
+                        </div>
+                        <!-- line -->
+                        <hr class="hide">
+                        <!-- user section -->
+                        <div class="lower-container">
+                            <!-- user icon -->
+                            <img src="../img/profile.svg" alt="profile" class="profile-icon">
+                            <!-- txt -->
+                            <span class="hide user">Defendi Mattia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right container -->
+            <div class="right-box">
+                <!-- upgrade button container-->
+                <div class="btn-cont">
+                    <!-- upgrade button -->
+                    <div id="upgrade-btn">effettua l'upgrade</div>
+                </div>
+                <!-- menu list -->
+                <ul class="menu-list">
+                    <li>in evidenza</li>
+                    <li>podcast</li>
+                    <li>classifiche</li>
+                    <li>generi e mood</li>
+                    <li>nuove uscite</li>
+                    <li>scopri</li>
+                </ul>
+                <!-- container recent played -->
+                <div class="container">
+                    <h2>Recently played</h2>
+                    <!-- box container -->
+                    <div class="box-cont">
+                        <!-- box1 -->
+                        <div class="box">
+                            <div><img src="../img/metal_lifting.jpg" alt="metal-lifting"></div>
+                            <h3>Heavy metal</h3>
+                            <span>Subtitle</span>
+                        </div>
+                        <!-- box2 -->
+                        <div class="box">
+                            <div><img src="../img/stranger.jpeg" alt="stranger"></div>
+                            <h3>Stranger things, Vol.1(a Netflix Original Series Soundtrack)</h3>
+                            <span>Kyle Dixon & Michael Stein</span>
+                        </div>
+                        <!-- box3 -->
+                        <div class="box">
+                            <div><img src="../img/aquietplace.jpeg" alt="aquietplace"></div>
+                            <h3>A quiet place</h3>
+                            <span>Subtitle</span>
+                        </div>
+                        <!-- box4 -->
+                        <div class="box">
+                            <div><img src="../img/split.jpeg" alt="split"></div>
+                            <h3>Split</h3>
+                            <span>Subtitle</span>
+                        </div>
+                        <!-- box5 -->
+                        <div class="box">
+                            <div><img src="../img/cure.jpeg" alt="cure"></div>
+                            <h3>A cure for wellness</h3>
+                            <span>Subtitle</span>
+                        </div>
+                        <!-- box6 -->
+                        <div class="box">
+                            <div><img src="../img/sinister.jpeg" alt="sinister"></div>
+                            <h3>Sinister</h3>
+                            <span>Subtitle</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- container create for -->
+                <div class="container">
+                    <h2>Creato per Defendi Mattia</h2>
+                    <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
+                    <!-- box container -->
+                    <div class="box-cont">
+                        <!-- box1 -->
+                        <div class="box">
+                            <img src="../img/radar.jpeg" alt="radar">
+                            <h3>Release Radar</h3>
+                        </div>
+                        <!-- box2 -->
+                        <div class="box">
+                            <img src="../img/mixdaily.jpeg" alt="mixdaily">
+                            <h3>Daily Mix 1</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- popular container -->
+                <div class="container">
+                    <h2>Artisti più popolari</h2>
+                    <h4>Più ascolti, più accurati saranno i suggerimenti.</h4>
+                    <!-- box container -->
+                    <div class="box-cont">
+                        <!-- box1 -->
+                        <div class="box round">
+                            <img src="../img/youg.jpeg" alt="youg">
+                            <!-- <h3>null</h3> -->
+                        </div>
+                        <!-- box2 -->
+                        <div class="box round">
+                            <img src="../img/einaudi.jpeg" alt="einaudi">
+                            <!-- <h3>null</h3> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </main>
+    <footer>
+        <!-- footer main container -->
+        <div id="f-container"></div>
+    </footer>
+</body>
+
+</html>
