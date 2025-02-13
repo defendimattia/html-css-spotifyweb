@@ -245,7 +245,7 @@ h3 + span {
     }
 
     .box {
-        width: calc((100% /2) - 10px);
+        width: calc((100% - 10px) / 2);
     }
 }
 
@@ -301,7 +301,7 @@ h3 + span {
     }
 
     .box {
-        width: calc((100% / 2) - 10px);
+        width: calc((100% - 10px) / 2);
     }
 }
 
@@ -310,7 +310,7 @@ h3 + span {
 @media (min-width: 768px) {
 
     .box {
-        width: calc((100% / 4) - 10px);
+        width: calc((100% - 30px) / 4);
     }
 }
 
@@ -321,7 +321,7 @@ h3 + span {
 @media (min-width: 992px) {
 
     .box {
-        width: calc((100% / 6) - 10px);
+        width: calc((100% - 50px) / 6);
     }
 }
 
