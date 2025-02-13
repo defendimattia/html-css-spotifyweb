@@ -230,10 +230,31 @@ h3 + span {
 
 
 /*** footer ***/
+
 #f-container {
     height: 90px;
     background-color: #282828;
+    display: flex;
 }
+
+.f-l-box,
+.f-r-box {
+    flex-grow: 1;
+}
+
+.f-l-box {
+    display: flex;
+}
+
+.f-m-box {
+    flex-grow: 2;
+}
+
+.f-m-box-upper,
+.f-m-box-lower {
+   height: 50%;
+}
+
 
 /*** media queries  ***/
 
@@ -297,7 +318,7 @@ h3 + span {
     }    
 
     .profile-icon {
-        padding: 5px 7px;
+        padding: 1px 3px;
     }
 
     .box {
