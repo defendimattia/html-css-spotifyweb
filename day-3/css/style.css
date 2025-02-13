@@ -43,7 +43,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-h3 {
+h3,
+h5 {
     color: #ffffff;
 }
 
@@ -237,17 +238,16 @@ h3 + span {
     display: flex;
 }
 
-.f-l-box,
-.f-r-box {
-    flex-grow: 1;
-}
+
 
 .f-l-box {
     display: flex;
+    align-items: center;
+    color: #5c5c5c;
 }
 
 .f-m-box {
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .f-m-box-upper,
@@ -255,6 +255,20 @@ h3 + span {
    height: 50%;
 }
 
+.l-left {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.l-middle {
+    margin-right: 40px;
+}
+
+.l-right {
+    display: flex;
+    gap: 10px;
+}
 
 /*** media queries  ***/
 
