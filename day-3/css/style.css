@@ -250,21 +250,21 @@ h3+span {
 
 .f-l-box,
 .f-r-box {
-    margin: 0 10px;
+    flex-grow: 1;
+    padding: 0 10px;
 }
 
 .f-m-box {
-    width: 100%;
-    /* debugger */
+    flex-grow: 2;
 }
 
 .f-m-box-upper,
 .f-m-box-lower {
-    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding: 10px;
 }
 
 .l-left {
@@ -286,6 +286,7 @@ h3+span {
 .f-r-box {
     display: flex;
     align-items: center;
+    justify-content: end;
     gap: 15px;
 }
 
@@ -315,6 +316,13 @@ h3+span {
 .adapt-bar-container {
     width: 70%;
     position: relative;
+}
+
+.play-btn {
+    margin: 0 10px;
+    border: 3px solid #ffffff;
+    padding: 5px 7px;
+    border-radius: 50%;
 }
 
 /*** media queries  ***/
