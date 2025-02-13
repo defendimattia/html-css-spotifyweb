@@ -219,6 +219,11 @@ li {
     margin-bottom: 20px;
 }
 
+.box {
+    position: relative;
+}
+
+
 h3,
 h3+span {
     text-align: center;
@@ -232,6 +237,29 @@ h3+span {
 
 .right-box img {
     margin-bottom: 5px;
+}
+
+.album-hover {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    font-size: 30px;
+
+}
+
+.box:hover .album-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.round:hover .album-hover {
+    border-radius: 50%;
 }
 
 
@@ -328,9 +356,11 @@ h3+span {
     border-radius: 50%;
 }
 
-.play-btn:hover {
+footer .play-btn:hover {
     scale: 110%;
 }
+
+
 
 /*** media queries  ***/
 
