@@ -191,6 +191,10 @@ li {
     font-size: small;
 }
 
+#upgrade-btn:hover {
+    scale: 110%;
+}
+
 .right-box .menu-list {
     display: flex;
     justify-content: center;
@@ -322,6 +326,10 @@ h3+span {
     border: 3px solid #ffffff;
     padding: 5px 7px;
     border-radius: 50%;
+}
+
+.play-btn:hover {
+    scale: 110%;
 }
 
 /*** media queries  ***/
