@@ -275,7 +275,8 @@ h3+span {
 
 .l-right {
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .f-r-box {
@@ -383,6 +384,12 @@ h3+span {
 
     .box {
         width: calc((100% - 30px) / 4);
+    }
+
+    .l-right {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
     }
 }
 
